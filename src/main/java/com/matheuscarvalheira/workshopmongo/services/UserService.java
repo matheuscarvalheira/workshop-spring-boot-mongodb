@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class UserService {
 
-    //chamando a camada service
+    //chamando a camada repository
     @Autowired
     private UserRepository repo;
 
