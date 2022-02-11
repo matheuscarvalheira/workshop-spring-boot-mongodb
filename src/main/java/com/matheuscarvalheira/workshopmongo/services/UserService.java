@@ -48,7 +48,7 @@ public class UserService {
         User newObj = findById(obj.getId());
         //pegar os dados do obj do parametro e jogar pro obj att (newObj)
         updateData(newObj, obj); //joga os dados do obj para o newObj
-        return repo.save(newObj); //salva o novo objeto atualizado
+        return repo.save(newObj); //salva o novo objeto atualizado no banco
     }
 
     private void updateData(User newObj, User obj) {
